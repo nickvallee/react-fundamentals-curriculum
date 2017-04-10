@@ -11,7 +11,8 @@ module.exports = {
   ],
   output: {
     path: __dirname + '/dist',
-    filename: "index_bundle.js"
+    filename: 'index_bundle.js',
+    publicPath: '/'
   },
   module: {
     loaders: [
@@ -19,5 +20,8 @@ module.exports = {
       { test: /\.css$/, use: [ 'style-loader', 'css-loader' ]}
     ]
   },
+  devServer: {
+    historyApiFallback: true
+  }
   plugins: [HTMLWebpackPluginConfig]
 };
