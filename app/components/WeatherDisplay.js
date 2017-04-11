@@ -1,9 +1,14 @@
 var React = require('react');
+var Day = require('./Day');
 
 class WeatherDisplay extends React.Component {
     render() {
         return (
-                <p> HERE IS THE WEATHER!!! </p>
+            <div className="weather-display">
+                <Day />
+                <Day />
+                <Day />
+            </div>
             )
     }
 }

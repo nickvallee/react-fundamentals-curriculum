@@ -128,3 +128,7 @@ li {
     margin: 10px auto;
   }
 }
+
+.weather-display {
+  display: flex;
+}
