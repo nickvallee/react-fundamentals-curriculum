@@ -55,13 +55,14 @@ li {
 .languages {
   display: flex;
   justify-content: center;
+
+  & li {
+      margin: 10px;
+      font-weight: bold;
+      cursor: pointer;
+  }
 }
 
-.languages li {
-  margin: 10px;
-  font-weight: bold;
-  cursor: pointer;
-}
 
 .popular-list {
   display: flex;
@@ -87,12 +88,32 @@ li {
 
 .nav {
   display: flex;
-}
 
-.nav li {
-  margin-right: 15px;
+  & li {
+    margin-right: 15px;
+  }
 }
 
 .active {
   font-weight: bold;
+}
+
+.weather-search {
+
+  &__input {
+
+  }
+
+  &__button {
+    color: #e6e6e6;
+    background: #0a0a0a;
+    border: none;
+    font-size: 16px;
+    border-radius: 3px;
+    width: 200px;
+    text-align: center;
+    display: block;
+    padding: 7px 0;
+    margin: 10px auto;
+  }
 }

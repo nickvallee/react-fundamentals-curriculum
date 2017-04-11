@@ -14,7 +14,7 @@ class WeatherSearch extends React.Component {
                     />
                     <p> This is the noraml button </p>
                     <button
-                        className='button weather-search__button'
+                        className='weather-search__button'
                         type='submit'
                         >
                         Get Weather
