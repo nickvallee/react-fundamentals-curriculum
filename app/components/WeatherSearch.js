@@ -12,15 +12,6 @@ class WeatherSearch extends React.Component {
                         placeholder='enter city and state'
                         type='text'
                     />
-                    <p> This is the noraml button </p>
-                    <button
-                        className='weather-search__button'
-                        type='submit'
-                        >
-                        Get Weather
-                    </button>
-
-                    <p> this is the Link </p>
                     <Link className='button' to='/weatherdisplay'>
                     Get Weather
                 </Link>

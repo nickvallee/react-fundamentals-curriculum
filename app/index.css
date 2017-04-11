@@ -84,14 +84,23 @@ li {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-image: url('./images/pattern.svg');
 }
 
 .nav {
-  display: flex;
 
-  & li {
-    margin-right: 15px;
+  display: flex;
+  justify-content: space-between;
+
+  &__list {
+  display: flex;
+  background-color: orange;
+
+    & li {
+      margin-right: 15px;
+    }
   }
+
 }
 
 .active {
@@ -101,6 +110,8 @@ li {
 .weather-search {
 
   &__input {
+    width: 100%;
+    text-align: center;
 
   }
 
