@@ -1,5 +1,6 @@
 var React = require('react');
 var Link = require('react-router-dom').Link;
+var WeatherSearch = require('./WeatherSearch');
 
 class WelcomePage extends React.Component {
     render() {
@@ -7,9 +8,9 @@ class WelcomePage extends React.Component {
             <div className='home-container'>
                 <h1> Enter a City and State </h1>
 
-                <Link className='button' to='/weatherdisplay'>
-                    Get Weather
-                </Link>
+                <WeatherSearch />
+
+
             </div>
             )
     }
