@@ -5,7 +5,7 @@ var WeatherSearch = require('./WeatherSearch');
 class WelcomePage extends React.Component {
     render() {
         return (
-            <div className='home-container'>
+            <div className='welcome-page'>
                 <h1> Enter a City and State </h1>
 
                 <WeatherSearch />

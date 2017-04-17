@@ -1,5 +1,4 @@
 .welcome-page {
-    flex: auto;
-    height: 1;
     background-image: url('./images/pattern.svg');
+    height: 500px;
 }

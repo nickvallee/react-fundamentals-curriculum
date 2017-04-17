@@ -1,10 +1,26 @@
+@import './styles/base/variables.css';
+@import './styles/modules/day-container.css';
+@import './styles/modules/day.css';
+@import './styles/modules/nav.css';
+@import './styles/modules/weather-display.css';
+@import './styles/modules/welcome-page.css';
+@import './styles/modules/weather-search.css';
+
+
 body {
+  height: 100%;
+  width: 100%;
   font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;
 }
 
+#app {
+}
+
 .container {
+  display: flex;
+  flex-direction: column;
   max-width: 1200px;
-  margin: 0 auto;
+  /*margin: 0 auto;*/
 }
 
 a {
@@ -87,48 +103,7 @@ li {
   background-image: url('./images/pattern.svg');
 }
 
-.nav {
-
-  display: flex;
-  justify-content: space-between;
-
-  &__list {
-  display: flex;
-  background-color: orange;
-
-    & li {
-      margin-right: 15px;
-    }
-  }
-
-}
-
 .active {
   font-weight: bold;
 }
 
-.weather-search {
-
-  &__input {
-    width: 100%;
-    text-align: center;
-
-  }
-
-  &__button {
-    color: #e6e6e6;
-    background: #0a0a0a;
-    border: none;
-    font-size: 16px;
-    border-radius: 3px;
-    width: 200px;
-    text-align: center;
-    display: block;
-    padding: 7px 0;
-    margin: 10px auto;
-  }
-}
-
-.weather-display {
-  display: flex;
-}
