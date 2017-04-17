@@ -6,9 +6,11 @@ class WelcomePage extends React.Component {
     render() {
         return (
             <div className='welcome-page'>
-                <h1> Enter a City and State </h1>
+                <h1 className='welcome-page__header'> Enter a City and State </h1>
 
-                <WeatherSearch />
+                <div className='welcome-page__search'>
+                 <WeatherSearch />
+                </div>
 
 
             </div>

@@ -1,4 +1,21 @@
 .welcome-page {
+    display: flex;
     background-image: url('./images/pattern.svg');
-    height: 500px;
+    min-height: 470px;
+    align-items: center;
+    flex-direction: row;
+
+
+    &__header {
+        margin: auto 0 auto 10%;
+        order: 1;
+    }
+
+    &__search {
+        align-self: flex-start;
+        border-style: solid;
+        margin: auto 0 auto 0;
+        order: 0;
+
+    }
 }
