@@ -11,7 +11,7 @@ class WeatherSearch extends React.Component {
                         id='location'
                         placeholder='enter city and state'
                         type='text'
-                    />
+                        />
                     <Link className='button' to='/weatherdisplay'>
                     Get Weather
                 </Link>

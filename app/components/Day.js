@@ -1,6 +1,13 @@
 var React = require('react');
+var api = require ('../utils/api');
+
+//ELEMENTS OF A COMPONENT
+//1.state
+//2.lifecycle events
+//3.ui
 
 class Day extends React.Component {
+
     render() {
         return (
             <div className='day'>
