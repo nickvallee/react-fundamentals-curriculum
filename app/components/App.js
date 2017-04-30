@@ -5,6 +5,7 @@ var Router = ReactRouter.BrowserRouter;
 var Route = ReactRouter.Route;
 var Switch = ReactRouter.Switch;
 var Nav = require('./Nav');
+var WeatherSearch = require('./WeatherSearch');
 var WelcomePage = require ('./WelcomePage');
 var WeatherDisplay = require ('./WeatherDisplay');
 

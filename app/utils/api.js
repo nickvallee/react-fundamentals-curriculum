@@ -8,6 +8,7 @@ module.exports = {
     fetchWeather: function (city) {
         var encodedURI = window.encodeURI('http://api.openweathermap.org/data/2.5/weather?q='+ city +'&type=accurate&APPID='+ apiKey);
 
+        console.log(city);
         return axios.get(encodedURI)
             .then(function(response) {
                 return response.data;

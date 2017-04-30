@@ -1,6 +1,8 @@
 var React = require('react');
+var ReactRouter = require('react-router-dom');
 var NavLink = require('react-router-dom').NavLink;
 var WeatherSearch = require('./WeatherSearch');
+var WeatherDisplay = require('./WeatherDisplay');
 
 function Nav() {
     return (
